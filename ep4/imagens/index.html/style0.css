@@ -1,0 +1,28 @@
+.conteiner-grid{
+    display:grid;
+    grid-template-columns: 400px auto 400px;
+    background-color: black;
+    padding: 5px;
+
+}
+.conteiner-grid > div{
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    color: aliceblue;
+    border-color: brown;
+    border: 20px;
+}
+.conteiner-grid > header{
+    grid-column-start: 1;
+    grid-column-end:4;
+    background-color: orangered;
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px
+}
+img{
+    text-align: right;
+}
